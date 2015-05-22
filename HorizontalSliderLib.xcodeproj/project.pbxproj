@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD2A729B1AF7A13B003AE7B1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2A729A1AF7A13B003AE7B1 /* MBProgressHUD.m */; };
+		CD2980E81B0F13BB001B99ED /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2980E51B0F13BB001B99ED /* MBProgressHUD.m */; };
+		CD2980EC1B0F13E2001B99ED /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2980EB1B0F13E2001B99ED /* SliderViewController.m */; };
+		CD2980EF1B0F13F5001B99ED /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2980EE1B0F13F5001B99ED /* SliderView.m */; };
 		CD2FA9711AF2022A0076A3BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA9701AF2022A0076A3BA /* main.m */; };
 		CD2FA9741AF2022A0076A3BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA9731AF2022A0076A3BA /* AppDelegate.m */; };
-		CD2FA9771AF2022A0076A3BA /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2FA9761AF2022A0076A3BA /* SliderViewController.m */; };
 		CD2FA97A1AF2022A0076A3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA9781AF2022A0076A3BA /* Main.storyboard */; };
 		CD2FA97C1AF2022A0076A3BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA97B1AF2022A0076A3BA /* Images.xcassets */; };
 		CD2FA97F1AF2022A0076A3BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2FA97D1AF2022A0076A3BA /* LaunchScreen.xib */; };
@@ -28,15 +29,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD2A72991AF7A13B003AE7B1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		CD2A729A1AF7A13B003AE7B1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CD2980E41B0F13BB001B99ED /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CD2980E51B0F13BB001B99ED /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CD2980EA1B0F13E2001B99ED /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
+		CD2980EB1B0F13E2001B99ED /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
+		CD2980ED1B0F13F5001B99ED /* SliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderView.h; sourceTree = "<group>"; };
+		CD2980EE1B0F13F5001B99ED /* SliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderView.m; sourceTree = "<group>"; };
 		CD2FA96B1AF2022A0076A3BA /* HorizontalSliderLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalSliderLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2FA96F1AF2022A0076A3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD2FA9701AF2022A0076A3BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD2FA9721AF2022A0076A3BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD2FA9731AF2022A0076A3BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD2FA9751AF2022A0076A3BA /* SliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
-		CD2FA9761AF2022A0076A3BA /* SliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
 		CD2FA9791AF2022A0076A3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD2FA97B1AF2022A0076A3BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD2FA97E1AF2022A0076A3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -63,19 +66,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD2A72771AF7556B003AE7B1 /* thirdParty */ = {
+		CD2980E21B0F13BB001B99ED /* VVSliderClasses */ = {
 			isa = PBXGroup;
 			children = (
-				CD2A72981AF7A13B003AE7B1 /* MBProgressHUD */,
+				CD2980E31B0F13BB001B99ED /* MBProgressHUD */,
+				CD2980ED1B0F13F5001B99ED /* SliderView.h */,
+				CD2980EE1B0F13F5001B99ED /* SliderView.m */,
 			);
-			name = thirdParty;
+			path = VVSliderClasses;
 			sourceTree = "<group>";
 		};
-		CD2A72981AF7A13B003AE7B1 /* MBProgressHUD */ = {
+		CD2980E31B0F13BB001B99ED /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				CD2A72991AF7A13B003AE7B1 /* MBProgressHUD.h */,
-				CD2A729A1AF7A13B003AE7B1 /* MBProgressHUD.m */,
+				CD2980E41B0F13BB001B99ED /* MBProgressHUD.h */,
+				CD2980E51B0F13BB001B99ED /* MBProgressHUD.m */,
 			);
 			path = MBProgressHUD;
 			sourceTree = "<group>";
@@ -83,8 +88,7 @@
 		CD2FA9621AF2022A0076A3BA = {
 			isa = PBXGroup;
 			children = (
-				CD2A72771AF7556B003AE7B1 /* thirdParty */,
-				CD2FA9941AF2024D0076A3BA /* SliderLib */,
+				CD2980E21B0F13BB001B99ED /* VVSliderClasses */,
 				CD2FA96D1AF2022A0076A3BA /* HorizontalSliderLib */,
 				CD2FA9871AF2022A0076A3BA /* HorizontalSliderLibTests */,
 				CD2FA96C1AF2022A0076A3BA /* Products */,
@@ -103,10 +107,10 @@
 		CD2FA96D1AF2022A0076A3BA /* HorizontalSliderLib */ = {
 			isa = PBXGroup;
 			children = (
+				CD2980EA1B0F13E2001B99ED /* SliderViewController.h */,
+				CD2980EB1B0F13E2001B99ED /* SliderViewController.m */,
 				CD2FA9721AF2022A0076A3BA /* AppDelegate.h */,
 				CD2FA9731AF2022A0076A3BA /* AppDelegate.m */,
-				CD2FA9751AF2022A0076A3BA /* SliderViewController.h */,
-				CD2FA9761AF2022A0076A3BA /* SliderViewController.m */,
 				CD2FA9781AF2022A0076A3BA /* Main.storyboard */,
 				CD2FA97B1AF2022A0076A3BA /* Images.xcassets */,
 				CD2FA97D1AF2022A0076A3BA /* LaunchScreen.xib */,
@@ -139,13 +143,6 @@
 				CD2FA9891AF2022A0076A3BA /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CD2FA9941AF2024D0076A3BA /* SliderLib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SliderLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,10 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2FA9771AF2022A0076A3BA /* SliderViewController.m in Sources */,
+				CD2980EF1B0F13F5001B99ED /* SliderView.m in Sources */,
+				CD2980EC1B0F13E2001B99ED /* SliderViewController.m in Sources */,
 				CD2FA9741AF2022A0076A3BA /* AppDelegate.m in Sources */,
+				CD2980E81B0F13BB001B99ED /* MBProgressHUD.m in Sources */,
 				CD2FA9711AF2022A0076A3BA /* main.m in Sources */,
-				CD2A729B1AF7A13B003AE7B1 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
